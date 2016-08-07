@@ -5,7 +5,7 @@ module Cangaroo
     SCHEMA = {
       'id': 'Cangaroo Object',
       'type': 'object',
-      'minProperties': 1,
+      'minProperties': 0,
       'additionalProperties': false,
       'patternProperties': {
         '^[a-z]*$': {
